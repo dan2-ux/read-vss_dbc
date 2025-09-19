@@ -1,0 +1,207 @@
+[
+  {
+    "input": "Low Beam on",
+    "output": {
+      "value": true,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "turn low beam off",
+    "output": {
+      "value": false,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "Is Low Beam on?",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "Low Beam off",
+    "output": {
+      "value": false,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "Low Beam",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "State of Low Beam?",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Beam.Low.IsOn"
+    }
+  },
+  {
+    "input": "High Beam off",
+    "output": {
+      "value": false,
+      "api": "Vehicle.Body.Lights.Beam.High.IsOn"
+    }
+  },
+  {
+    "input": "turn high beam on",
+    "output": {
+      "value": true,
+      "api": "Vehicle.Body.Lights.Beam.High.IsOn"
+    }
+  },
+  {
+    "input": "Is High Beam on?",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Beam.High.IsOn"
+    }
+  },
+  {
+    "input": "High Beam on",
+    "output": {
+      "value": true,
+      "api": "Vehicle.Body.Lights.Beam.High.IsOn"
+    }
+  },
+  {
+    "input": "High Beam",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Beam.High.IsOn"
+    }
+  },
+  {
+    "input": "Hazard on",
+    "output": {
+      "value": true,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "Is Hazard Lights on?",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "turn hazard on",
+    "output": {
+      "value": true,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "Hazard Lights?",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "Hazard lights off",
+    "output": {
+      "value": false,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "Hazard",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Body.Lights.Hazard.IsSignaling"
+    }
+  },
+  {
+    "input": "driver fan speed 100",
+    "output": {
+      "value": 100,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Driver.FanSpeed"
+    }
+  },
+  {
+    "input": "set driver fan speed to 50",
+    "output": {
+      "value": 50,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Driver.FanSpeed"
+    }
+  },
+  {
+    "input": "change driver fan speed to 30",
+    "output": {
+      "value": 30,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Driver.FanSpeed"
+    }
+  },
+  {
+    "input": "driver fan speed",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Driver.FanSpeed"
+    }
+  },
+  {
+    "input": "passenger fan speed 100",
+    "output": {
+      "value": 100,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Passenger.FanSpeed"
+    }
+  },
+  {
+    "input": "set passenger fan speed to 50",
+    "output": {
+      "value": 50,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Passenger.FanSpeed"
+    }
+  },
+  {
+    "input": "change passenger fan speed to 70",
+    "output": {
+      "value": 70,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Passenger.FanSpeed"
+    }
+  },
+  {
+    "input": "passenger fan speed",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Cabin.HVAC.Station.Row1.Passenger.FanSpeed"
+    }
+  },
+  {
+    "input": "driver seat position 10",
+    "output": {
+      "value": 10,
+      "api": "Vehicle.Cabin.Seat.Row1.DriverSide.Position"
+    }
+  },
+  {
+    "input": "set driver seat position 5",
+    "output": {
+      "value": 5,
+      "api": "Vehicle.Cabin.Seat.Row1.DriverSide.Position"
+    }
+  },
+  {
+    "input": "change driver seat position 1",
+    "output": {
+      "value": 1,
+      "api": "Vehicle.Cabin.Seat.Row1.DriverSide.Position"
+    }
+  },
+  {
+    "input": "driver seat position",
+    "output": {
+      "value": null,
+      "api": "Vehicle.Cabin.Seat.Row1.DriverSide.Position"
+    }
+  }
+]
+
+
