@@ -1,0 +1,3 @@
+The first one is NVIDIA Jetson Orin or Orin in short, which is a  brain of Dreamkit. Its handle almost everything from interacting with digital.auto, displaying information on the screen, connecting to cloud, API to connecting with the GOLDBOX.  
+
+The second component is the GOLDBOX which will connect to others ECUs read its data then feed those data to Orin through KUKSA FEEDER. 
