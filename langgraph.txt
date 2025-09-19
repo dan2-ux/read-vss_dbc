@@ -1,0 +1,5 @@
+LangGraph is an open-source library from LangChain used to build and manage complex, stateful, multi-agent AI workflows. 
+
+It utilizes a graph-based architecture, where nodes represent individual steps or agents and edges represent the flow between them, enabling complex logic with cycles, loops, and conditional execution. 
+
+This allows for state persistence, real-time streaming, moderation, and custom control flows, making it ideal for creating advanced systems like virtual assistants, task management assistants, and other complex conversational AI applications

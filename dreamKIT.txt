@@ -1,3 +1,16 @@
+The digital.auto dreamKIT is a proof-of-concept (PoC) hardware, providing a hands-on, physical experience for SDV applications. 
+
+With the dreamKIT you can try out your digitally developed SDV features on a physical device. 
+
+Therefore, it allows you to transfer your use case from the virtual exploration phase into the productization phase.
+
+The digital.auto dreamKIT includes a vehicle computing unit, a central gateway, and a mock-up in-vehicle infotainment touch screen. 
+
+dreamKIT has CAN and Ethernet interfaces to connect with external devices, that can form a Zonal E/E Architecture network topology.
+
+dreamKIT are made of 2 main components.
+
 The first one is NVIDIA Jetson Orin or Orin in short, which is a  brain of Dreamkit. Its handle almost everything from interacting with digital.auto, displaying information on the screen, connecting to cloud, API to connecting with the GOLDBOX.  
 
 The second component is the GOLDBOX which will connect to others ECUs read its data then feed those data to Orin through KUKSA FEEDER. 
+
