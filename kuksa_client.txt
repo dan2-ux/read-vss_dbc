@@ -1,0 +1,33 @@
+kuksa_client is the client-side component of the Eclipse Kuksa
+
+Eclipse Kuksa is an open-source platform for connected vehicles and automotive applications, providing a framework for securely accessing and exchanging vehicle data (like speed, fuel level, GPS, etc.) based on VSS (Vehicle Signal Specification).
+
+
+The kuksa_client is typically:
+
+A library or tool that allows applications to connect to a Kuksa Data Broker (the central component that stores and manages vehicle signals).
+
+It communicates using gRPC or WebSocket protocols.
+
+It enables developers to read, write, and subscribe to vehicle signals (e.g., Vehicle.Speed, Vehicle.Powertrain.CombustionEngine.RPM).
+
+It is available in different implementations (e.g., Python client, C++ client).
+
+To install kuksa_client on your machine run "pip3 install kuksa_client"
+
+
+kuksa_client run with sdv-runtime. Therefore, we need to run sdv-runtime before we initiate kuksa_client.
+
+There are 2 ways that you use kuksa_client to accessing and exchanging vehicle data.
+
+The first is through CLI (Command Line Interface)
+
+With default CLI arguments, the client will try to connect to a local Databroker, e.g. a server supporting the kuksa.val.v1 protocol without using TLS. This is equivalent to executing the command below
+
+kuksa-client grpc://127.0.0.1:55555
+
+The second way is through coding, this give developers more freedom on how to change and when to change vehicle data.
+
+This utilizes kuksa_client.grpc to import VSSClient and Datapoint, these to libraries will help developers to update and get vehicle data 
+
+For more information, visit this github page "https://github.com/eclipse-kuksa/kuksa-python-sdk"

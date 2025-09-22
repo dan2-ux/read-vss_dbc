@@ -1,0 +1,9 @@
+sdv_runtime help users and developers try out SDV (Software Defined Vehicles) without installing lots of things. 
+
+The sdv-runtime Docker container has everything you need to run your QM apps. It's made for people who are new to SDV and want to learn and practice without a complicated setup. 
+
+The sdv-runtime connects natively with playground.digital.auto where you can ideation, coding and present your automotive feature.
+
+Since it is a docker container, it can run on cloud, your PC or even on rapsberry pi. It supports arm64 and arm64.
+
+To run sdv_runtime make sure you computer have docker installed, if you already have docker installed then execute this command "docker run -d -e RUNTIME_NAME="MyRuntimeName" ghcr.io/eclipse-autowrx/sdv-runtime:latest"
